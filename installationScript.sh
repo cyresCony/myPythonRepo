@@ -14,6 +14,7 @@ md5sum Anaconda3-2018.12-Linux-x86_64.sh
 bash Anaconda3-2018.12-Linux-x86_64.sh
 
 #Activate installation
+#didnt work properly
 source ~/.bashrc
 
 #Testing the installation
@@ -23,8 +24,7 @@ conda list
 conda install -c conda-forge jupyterlab
 
 #Install node.js for JupyterLab Extensions
-curl -sL https://deb.nodesource.com/setup_10.x | bash -
-apt-get install -y nodejs
+conda install nodejs
 
 #Install jupyterlab-github Extension
 jupyter labextension install @jupyterlab/github

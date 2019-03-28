@@ -28,3 +28,6 @@ apt-get install -y nodejs
 
 #Install jupyterlab-github Extension
 jupyter labextension install @jupyterlab/github
+
+#Install Django 2.1.7
+conda install -c anaconda django

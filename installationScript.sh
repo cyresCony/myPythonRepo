@@ -41,3 +41,6 @@ sudo apt-get install texstudio
 #Install GnuRadio
 sudo apt-get install gnuradio
 
+#Get my files
+git clone https://github.com/cyresCony/myPythonRepo
+

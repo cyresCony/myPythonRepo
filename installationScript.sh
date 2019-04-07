@@ -31,3 +31,13 @@ jupyter labextension install @jupyterlab/github
 
 #Install Django 2.1.7
 conda install -c anaconda django
+
+#Install TexLive base (minimal)
+sudo apt-get install texlive-base
+
+#Install TexStudio
+sudo apt-get install texstudio
+
+#Install GnuRadio
+sudo apt-get install gnuradio
+
